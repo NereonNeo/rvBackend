@@ -4,7 +4,7 @@
   "description": "Some desc",
   "main": "index.js",
   "author": "yakub yakubov",
-  "license": "MIT",
+  "license": "",
   "scripts": {
     "start": "node index.js"
   },

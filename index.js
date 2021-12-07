@@ -16,6 +16,7 @@ app.use(express.json());
 app.use('/api/auth', authRoute);
 app.use('/api/users', userRoute);
 app.use('/api/products', ProductsRoute);
-app.listen(process.env.PORT || 5000, () => {
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
   console.log('Server Start');
 });
