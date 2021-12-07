@@ -6,7 +6,7 @@
   "author": "yakub yakubov",
   "license": "MIT",
   "scripts": {
-    "start": "index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
